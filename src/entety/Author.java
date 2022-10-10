@@ -36,6 +36,10 @@ public class Author {
     public String toString() {
         return "Author{" + "firstname=" + firstname + ", lastname=" + lastname + '}';
     }
+
+    public void setFirstname() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     
 }

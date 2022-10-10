@@ -39,6 +39,10 @@ public class Book {
         return "Book{" + "title=" + title + ", author=" + Arrays.toString(author)
                 + author + '}';
     }
+
+    public void setAuthors(Author[] createAuthors) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     
 }
